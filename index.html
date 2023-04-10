@@ -1,13 +1,42 @@
 <style>
+    
+    html {
+        background-color: #d6d6d6;
+    }
 
-    li {
+    #navigation li {
         display: inline;
         font-size: 16px;
         font-family: arial, times new roman;
-        background-color: blue;
+        background-color: #469ac7;
         color: white;
         border: 1px solid black;
-        
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        float: left;
+    }
+    
+    
+    #navigation {
+        width="90%";
+        height: 100;
+        background-color: #85bced;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
+    
+    .nav-item li {
+        margin-left: 15;
+        margin-right: 15;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 25px;
     }
     
 </style>
@@ -16,15 +45,12 @@
 
 <html>
     <head>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Projects</li>
-                <li>About</li>
-                <li>Contact Me</li>
-            </ul>
-        </nav>
-    
+        <div id="navigation">  
+                <div class="nav-item"><li><a href="/index.html"></a>Home</li></div>
+                <div class="nav-item"><li><a href="/projects.html">Projects</a></li></div>
+                <div class="nav-item"><li><a href="">Contact Me</a></li></div>
+                <div class="nav-item"><li><a href="">About</a></li></div>      
+        </div>
     </head>
     <body>
     
@@ -32,8 +58,13 @@
     <h1>Test Page</h1>
     
     <ul>
-        <li>List Item 1</li>
-        <li>List Item 2</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaSript</li>
+        <li>GA4 - Google Analytics</li>
+        <li>Email Marketing</li>
+        <li>SEO Optimization</li>
+        <li>Google Business Profile Management</li>
     </ul>
     </body>
 </html>
